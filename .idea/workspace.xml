@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4196d41-9635-45c9-a399-2c4dfd2d94c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SparseMatrix/SparseMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/SparseMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparseMatrix/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="e4196d41-9635-45c9-a399-2c4dfd2d94c5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +13,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2XxPl2SjIenJTV72mfK0rH0Wg6u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +27,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Pasha/Desktop/Codes/github/Data-Structure",
+    "last_opened_file_path": "D:/OnlyQuear/QueraPython",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699567904145</updated>
       <workItem from="1699567906114" duration="51000" />
+      <workItem from="1699568164367" duration="20000" />
     </task>
     <servers />
   </component>
