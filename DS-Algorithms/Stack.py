@@ -12,29 +12,24 @@ class Stack:
             self.top += 1
             self.stack.append(item)
 
-
     def pop(self):
         if (self.is_empty()):
             raise Exception("Stack Is Empty , Can't Delete Item")
 
         else:
-            self.stack.pop(self.top)
+            res = self.stack.pop(self.top)
             self.top -= 1
+            return res
 
 
     def is_empty(self):
-        if (self.top == -1):
-            return True
-
-        else:
-            return False
+        return (bool_exp := self.top == -1)
 
     def is_full(self):
-        if (self.top == self.max_length - 1):
-            return True
+        return (bool_exp := self.top == self.max_length - 1)
 
-        else:
-            return False
+    def get_top(self):
+        return self.top
 
-    def print_stack(self):
-        print(self.stack)
+    def __str__(self):
+        return self.stack
