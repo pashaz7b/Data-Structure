@@ -21,7 +21,6 @@ class Stack:
             self.top -= 1
             return res
 
-
     def is_empty(self):
         return (bool_exp := self.top == -1)
 

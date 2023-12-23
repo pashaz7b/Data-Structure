@@ -36,19 +36,14 @@ class Queue:
 
             return res
 
-
     def is_empty(self):
         return (bool_exp := self.current_size <= 0)
 
-
     def is_full(self):
         return (bool_exp := self.current_size >= self.max_length)
-
 
     def __str__(self):
         return self.queue
 
     def gt_current_size(self):
         return self.current_size
-
-

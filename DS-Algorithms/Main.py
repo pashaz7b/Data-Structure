@@ -1,10 +1,12 @@
 from Stack import *
 from Queue import *
+from LinkedList import *
 
 
 def switch_stacks(s1: Stack, s2: Stack):
-    print(s1.__str__())
-    print(s2.__str__())
+    print("Stack1 and Stack2 Before Switching : ")
+    print("S1:", s1.__str__())
+    print("S2:", s2.__str__())
 
     tempQ = Queue(s1.max_length)
     list1 = []
@@ -29,41 +31,9 @@ def switch_stacks(s1: Stack, s2: Stack):
         if (not s2.is_full()):
             s2.push(item)
 
-    print(s1.__str__())
-    print(s2.__str__())
-
-
-def test_case():
-    # Testing Stack Class
-    print("Testing Stack Class:")
-    my_stack1 = Stack(3)
-    my_stack2 = Stack(1)
-    my_stack3 = Stack(1)
-
-    my_stack1.push(1)
-    my_stack1.push(2)
-    my_stack1.push(3)
-    print(my_stack1.__str__())
-    my_stack1.pop()
-    print(my_stack1.__str__())
-    print(my_stack1.get_top())
-
-    my_stack3.push(27)
-    print(my_stack3.is_full())
-    print(my_stack2.is_empty())
-
-    print("----------------------------------------------------------")
-
-    myqueue1 = Queue(6)
-    myqueue1.enqueue(1)
-    myqueue1.enqueue(2)
-    myqueue1.enqueue(3)
-    myqueue1.enqueue(4)
-    print(myqueue1.rear)
-    print(myqueue1.front)
-    print("------------------")
-    print(myqueue1.gt_current_size())
-    print(myqueue1.__str__())
+    print("Stack1 and Stack2 After Switching : ")
+    print("S1:", s1.__str__())
+    print("S2:", s2.__str__())
 
 
 if __name__ == '__main__':
